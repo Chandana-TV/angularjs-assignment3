@@ -37,7 +37,7 @@ function MenuSearchService() {
 
   service.getMatchedMenuItems = function (searchTerm)
   {
-  }
+  };
 }
 
 })();
