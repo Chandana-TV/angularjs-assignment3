@@ -35,8 +35,9 @@ function MenuSearchService() {
     description : "abc"
   }];
 
-  service.getMatchedMenuItems = function (searchTerm) {
-
+  service.getMatchedMenuItems = function (searchTerm)
+  {
   }
+}
 
 })();
