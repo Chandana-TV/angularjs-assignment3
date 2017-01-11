@@ -8,7 +8,7 @@ angular.module('NarrowItDownApp', [])
 NarrowItDownController.$inject = ['MenuSearchService'];
 function NarrowItDownController(MenuSearchService) {
   var narrowDown = this;
-  narrowDown.found = MenuSearchService.getItemsToBeBought();
+  narrowDown.found = [];
   narrowDown.searchText ="";
   narrowDown.errorMessage = "";
 
